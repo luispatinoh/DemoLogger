@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.soaint.logger</groupId>
 	<artifactId>DemoLogger</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>DemoLogger</name>
 	<description>Demo Logger Project</description>
 	<properties>
@@ -26,6 +26,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.8.1</version>
+		    <scope>test</scope>
 		</dependency>
 	</dependencies>
 
